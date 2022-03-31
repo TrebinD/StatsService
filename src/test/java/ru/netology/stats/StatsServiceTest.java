@@ -12,9 +12,9 @@ class StatsServiceTest {
     @Test
     void amountSalesYear() {
 
-        long expected = 180;
+        int expected = 180;
 
-        long actual = amountSales.amountSalesYear(sales);
+        int actual = amountSales.amountSalesYear(sales);
 
         assertEquals(expected, actual);
 
@@ -23,9 +23,9 @@ class StatsServiceTest {
     @Test
     void averageAmountMonth() {
 
-        long expected = 15;
+        int expected = 15;
 
-        long actual = amountSales.averageAmountMonth(sales);
+        int actual = amountSales.averageAmountMonth(sales);
 
         assertEquals(expected, actual);
 
